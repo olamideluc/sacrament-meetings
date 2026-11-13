@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+:root {
+  --meeting-background: #f8fafc;
+  --meeting-foreground: #1e293b;
+  --meeting-primary: #1e40af;
+  --meeting-secondary: #64748b;
+  --meeting-card: #ffffff;
+  --meeting-border: #e2e8f0;
+}
+
+body {
+  background-color: var(--meeting-background);
+  color: var(--meeting-foreground);
+  min-height: 100vh;
+}
